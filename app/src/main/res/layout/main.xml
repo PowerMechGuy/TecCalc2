@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/black_back_splash">
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="0dp">
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:id="@+id/mainRelativeLayout1">
+
+			<Button
+				android:layout_width="10dp"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/mainButton1"
+				android:visibility="invisible"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toLeftOf="@id/mainRelativeLayout1">
+
+			<Button
+				android:layout_width="10dp"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/mainButton2"
+				android:visibility="invisible"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="7"
+				android:layout_toLeftOf="@id/mainButton2"
+				android:layout_height="wrap_content"
+				android:id="@+id/seven"
+				android:textSize="20sp"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="8"
+				android:layout_toRightOf="@id/mainButton2"
+				android:id="@+id/eight"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="10dp"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:layout_below="@id/mainButton2"
+				android:layout_alignStart="@id/mainButton2"
+				android:visibility="invisible"
+				android:id="@+id/mainButton4"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="4"
+				android:layout_toLeftOf="@id/mainButton4"
+				android:layout_below="@id/mainButton2"
+				android:id="@+id/four"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="5"
+				android:layout_toRightOf="@id/mainButton4"
+				android:layout_below="@id/mainButton2"
+				android:id="@+id/five"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="10dp"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:layout_below="@id/mainButton4"
+				android:id="@+id/mainButton6"
+				android:layout_alignStart="@id/mainButton4"
+				android:visibility="invisible"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:layout_width="10dp"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:layout_below="@id/mainButton6"
+				android:layout_alignStart="@id/mainButton6"
+				android:id="@+id/mainButton8"
+				android:visibility="invisible"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="1"
+				android:layout_toLeftOf="@id/mainButton6"
+				android:layout_below="@id/mainButton4"
+				android:id="@+id/one"
+				android:textStyle="bold"
+				android:textSize="20sp"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="2"
+				android:layout_toRightOf="@id/mainButton6"
+				android:layout_below="@id/mainButton4"
+				android:id="@+id/two"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="."
+				android:layout_toLeftOf="@id/mainButton8"
+				android:layout_below="@id/mainButton6"
+				android:visibility="visible"
+				android:id="@+id/point"
+				android:textColor="#015BFF"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textSize="25sp"
+				android:typeface="monospace"
+				android:textStyle="bold"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="0"
+				android:layout_toRightOf="@id/mainButton8"
+				android:layout_below="@id/mainButton6"
+				android:id="@+id/zero"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:textSize="20sp"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/mainRelativeLayout1">
+
+			<Button
+				android:layout_width="10dp"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/mainButton3"
+				android:visibility="invisible"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="9"
+				android:layout_toLeftOf="@id/mainButton3"
+				android:id="@+id/nine"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:textSize="20sp"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="÷"
+				android:layout_toRightOf="@id/mainButton3"
+				android:id="@+id/divide"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="10dp"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:layout_below="@id/mainButton3"
+				android:layout_alignStart="@id/mainButton3"
+				android:visibility="invisible"
+				android:id="@+id/mainButton5"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="6"
+				android:layout_toLeftOf="@id/mainButton5"
+				android:layout_below="@id/mainButton3"
+				android:id="@+id/six"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:textSize="20sp"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="×"
+				android:layout_toRightOf="@id/mainButton5"
+				android:layout_below="@id/mainButton3"
+				android:id="@+id/multiply"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="10dp"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:layout_below="@id/mainButton5"
+				android:id="@+id/mainButton7"
+				android:layout_alignStart="@id/mainButton5"
+				android:visibility="invisible"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:layout_width="10dp"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:layout_below="@id/mainButton7"
+				android:layout_alignStart="@id/mainButton7"
+				android:id="@+id/mainButton9"
+				android:visibility="invisible"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="3"
+				android:layout_toLeftOf="@id/mainButton7"
+				android:layout_below="@id/mainButton5"
+				android:id="@+id/three"
+				android:textStyle="bold"
+				android:textSize="20sp"
+				android:typeface="monospace"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="-"
+				android:layout_toRightOf="@id/mainButton7"
+				android:layout_below="@id/mainButton5"
+				android:id="@+id/subtract"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="="
+				android:layout_toLeftOf="@id/mainButton9"
+				android:layout_below="@id/mainButton7"
+				android:visibility="visible"
+				android:id="@+id/equals"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textSize="20sp"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:textColor="#015BFF"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="+"
+				android:layout_toRightOf="@id/mainButton9"
+				android:layout_below="@id/mainButton7"
+				android:id="@+id/add"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:background="@drawable/buttonsplash_edit_b"
+				android:textColor="#015BFF"/>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/mainRelativeLayout2"
+		android:background="@drawable/outputsplash_edit_c">
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="55dp"
+			android:layout_alignParentTop="false">
+
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="1 + 2 = 3"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textSize="40sp"
+					android:textAlignment="viewEnd"
+					android:gravity="right"
+					android:id="@+id/outputNumber"
+					android:typeface="monospace"
+					android:textColor="#FFFFFF"/>
+
+			</RelativeLayout>
+
+		</ScrollView>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/mainRelativeLayout2">
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true">
+
+			<Button
+				android:layout_width="60dp"
+				android:layout_height="wrap_content"
+				android:text="Button"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/mainButton10"
+				android:visibility="invisible"
+				android:layout_marginTop="10dp"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="C"
+				android:layout_alignTop="@id/mainButton10"
+				android:layout_width="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:id="@+id/clear"
+				android:typeface="monospace"
+				android:textSize="25sp"
+				android:background="@drawable/buttonsplash_b"
+				android:textColor="#00FF00"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="D"
+				android:layout_alignParentRight="true"
+				android:id="@+id/delete"
+				android:typeface="monospace"
+				android:textStyle="normal"
+				android:textSize="25sp"
+				android:background="@drawable/buttonsplash_b"
+				android:textColor="#00FF00"
+				android:layout_alignTop="@id/mainButton10"/>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+
